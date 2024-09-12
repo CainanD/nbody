@@ -1,0 +1,37 @@
+This code simulates the trajectories of a number of bodies in space. A body can represent a star, planet, moon, asteroid,
+or particle. Each body exerts gravity on all other bodies. The trajectories of each body are calculated using Newtonian gravity
+and Euler's method. Due to the approximation of Euler's method, the simulation tends to have some error. This is especially apparent when time is sped up. 
+
+There are many ways to interact with the program.
+|-------------------------------------------------------------------------------------|
+| Left Mouse Press - initiate launch sequence                                         |
+| - Scroll Up - increase the mass of the body                                         |
+| - Scroll Down - decrease the mass of the body                                       |
+| Left Mouse Release - launch body from cursor toward where launch was initiated      |
+|-------------------------------------------------------------------------------------|
+| Right Mouse Press - spawn group of moons                                            |
+|-------------------------------------------------------------------------------------|
+| Scroll Up - speed up time                                                           |
+|-------------------------------------------------------------------------------------|
+| Scroll Down - slow down time                                                        |
+|-------------------------------------------------------------------------------------|
+| Spacebar - clear all bodies and trails                                              |
+|-------------------------------------------------------------------------------------|
+| p - pause the simulation                                                            |
+|-------------------------------------------------------------------------------------|
+| d - toggle center of gravity display                                                |
+|-------------------------------------------------------------------------------------|
+| t - toggle trails                                                                   |
+|-------------------------------------------------------------------------------------|
+| c - toggle center of gravity tracking                                               |
+|-------------------------------------------------------------------------------------|
+| Escape - end the simulation                                                         |
+|-------------------------------------------------------------------------------------|
+
+SFML and its dependencies are a pre-resquisuite to build this code. Because Pyrite does not come with these
+installed, it is unlikely the TAs will be able to run the code. However, the executable file included
+within the submission can be ran on x64 Windows computers without any having to install any libraries.
+If using this method, add the argument "figure8" to run a pre-loaded simulation.
+
+For example (Windows only):
+> ./3body.exe figure8

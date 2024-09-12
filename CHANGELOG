@@ -1,0 +1,6 @@
+Assignment-2
+4/24 - Began assignment with the intention of simulating the paths of 3 bodies.
+4/25 - Added the "body" class with functions for rendering and calculating trajectories.
+4/26 - Added support for n-bodies instead of just 3. 
+4/28 - Created ways to interact with the SFML window, including creating new bodies, speeding up time, 
+       and clearing all bodies.
