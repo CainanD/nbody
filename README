@@ -28,10 +28,9 @@ There are many ways to interact with the program.
 | Escape - end the simulation                                                         |
 |-------------------------------------------------------------------------------------|
 
-SFML and its dependencies are a pre-resquisuite to build this code. Because Pyrite does not come with these
-installed, it is unlikely the TAs will be able to run the code. However, the executable file included
+SFML and its dependencies are a pre-resquisuite to build this code. However, the executable file included
 within the submission can be ran on x64 Windows computers without any having to install any libraries.
 If using this method, add the argument "figure8" to run a pre-loaded simulation.
 
 For example (Windows only):
-> ./3body.exe figure8
+> ./3body.exe --figure8
